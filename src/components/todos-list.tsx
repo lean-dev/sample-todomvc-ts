@@ -1,5 +1,11 @@
+import TodosItem from './todos-item';
+
 function TodosList() {
-  return;
+  return (
+    <ul className="todo-list">
+      <TodosItem />
+    </ul>
+  );
 }
 
 export default TodosList;
